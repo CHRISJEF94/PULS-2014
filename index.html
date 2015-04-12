@@ -1,16 +1,17 @@
 <!DOCTYPE html><!--DECLARA QUE SE USA HTML5-->
 <html lang="es"><!--ETIQUETA OBLIGATORIA-->
 <head>
-	<meta charset="utf-8" />
+	<meta charset="utf-8" /><!--ETIQUETA OBLIGATORIA-->
+	<meta description="proyecto de creacion de una pagina web profesional... :D" /><!--ETIQUETA OBLIGATORIA-->
 	<title>Mi primera app web :D</title>
 	<link rel="stylesheet" href="estilos.css" />
 </head>
 <body>
 	<header>
-		<figure id="logo">
+		<figure id="logo"><!--ETIQUETA SEMANTICA ESPECIAL PARA COLOCAR IMAGENES.. :O--><!--id.. para elementos unicos que no se repiten-->
 			<img src="logo.png" />
 		</figure>
-		<h1 id="titulo_header">Título de mi sitio web</h1>
+		<h1 id="titulo_header">Título de mi sitio web</h1><!--PARA TITULO PRINCIPAL-->
 		<figure id="avatar">
 			<img src="avatar.jpg" />
 			<figcaption>
@@ -18,10 +19,10 @@
 			</figcaption>
 		</figure>
 	</header>
-	<nav>
+	<nav><!--PARA LA BARRA DE NAVEGACION-->
 		<ul>
 			<li id="flechita_nav">*</li>
-			<li>Python</li>
+			<li><a href="#">Python</a></li><!--si en a href se pone el # se va al mismo sitio web-->
 			<li>HTML5</li>
 			<li>Javascript</li>
 			<li>CSS3</li>
@@ -29,7 +30,7 @@
 			<li id="publicar_nav">Publicar</li>
 		</ul>
 	</nav>
-	<section id="contenido">
+	<section id="contenido"><!--los id son unicos irrepetibles-->
 		<article class="item">
 			<figure class="imagen_item">
 				<img src="imagen.jpg" />
@@ -44,7 +45,7 @@
 				<a class="tag_item" href="#">tag</a>
 				<span class="fecha_item">Hace 5 min</span>
 				<a class="comentarios_item" href="#">455</a>
-				<a class="guardar_item" href="#">*</a>
+				<a class="guardar_item" href="#">*</a><!--PARA LA ESTRELLA-->
 			</p>
 			<p class="votacion">
 				<a class="up" href="#">+</a> 
@@ -54,7 +55,9 @@
 		</article>
 	</section>
 	<footer>
-		<p>Powered by Platzi!</p>
+		<p>
+			<strong>Powered by Platzi!</strong>
+		</p>
 		<p>Mejorando.la 2013 ®</p>
 	</footer>
 </body>
