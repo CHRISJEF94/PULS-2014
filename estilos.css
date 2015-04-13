@@ -1,12 +1,19 @@
-body
+a
 {
-	background: #EFEFEF;
+	color: #22BCE0;/* ATRIBUTO QUE LE PONE COLOR AL TEXTO DE LINKS */
+
+}
+
+body/* ESTILO PARA TODO EL BODY */
+{
+	background: #EFEFEF;/* COLOR DE FONDO DEL BODY */
 	color: #4C4C4C;
-	font-family: Arial;
+	font-family: Arial;/* ENTRE COMILLAS TIPO DE PALABRA SEPARADA */
 	font-size: 16px;
 	margin: 0;
 }
-header
+
+header /* SOLO HAY UN HEADER */
 {
 	background: #434343;
 	padding: 0.5em;
